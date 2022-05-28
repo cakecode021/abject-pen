@@ -20,6 +20,6 @@ It's a good start point learning about [platform](#) and [software](#).
 ### Lisence
 
 Copyright(c)2022, cakecode. All rights reserved.
-The Abject-Pen Program is licensed the Abject-Pen Program, Version 2.0.
+The Abject-Pen Program is licensed under the GNU General Public License, Version 3.0.
 
 | [link](#)
