@@ -1,11 +1,11 @@
-#include <stdio.h>
+/*#include <stdio.h>
 int main() {
 
     printf("Hello, World!");
     return 0;
-}
+}*/
 
-#include <iostream>
+/**#include <iostream>
 using namespace std;
 
 int main() {    
@@ -16,4 +16,22 @@ int main() {
 
     cout << "You entered " << number;    
     return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main() {
+
+  int first_number, second_number, sum;
+    
+  cout << "Enter two integers: ";
+  cin >> first_number >> second_number;
+
+  sum = first_number + second_number;
+
+  // prints sum 
+  cout << first_number << " + " <<  second_number << " = " << sum;     
+
+  return 0;
 }
