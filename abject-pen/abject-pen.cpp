@@ -18,7 +18,7 @@ int main() {
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main() {
@@ -34,4 +34,24 @@ int main() {
   cout << first_number << " + " <<  second_number << " = " << sum;     
 
   return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{    
+    int divisor, dividend, quotient, remainder;
+
+    cout << "Enter dividend: ";
+    cin >> dividend;
+
+    cout << "Enter divisor: ";
+    cin >> divisor;
+
+    quotient = dividend / divisor;
+
+    cout << "Quotient = " << quotient << endl;
+
+    return 0;
 }
