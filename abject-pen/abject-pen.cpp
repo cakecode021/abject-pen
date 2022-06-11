@@ -8,13 +8,13 @@ int main() {
 /**#include <iostream>
 using namespace std;
 
-int main() {    
+int main() {
     int number;
 
     cout << "Enter an integer: ";
     cin >> number;
 
-    cout << "You entered " << number;    
+    cout << "You entered " << number;
     return 0;
 }*/
 
@@ -24,14 +24,14 @@ using namespace std;
 int main() {
 
     int first_number, second_number, sum;
-    
+
     cout << "Enter two integers: ";
     cin >> first_number >> second_number;
 
     sum = first_number + second_number;
 
-  // prints sum 
-    cout << first_number << " + " <<  second_number << " = " << sum;     
+  // prints sum
+    cout << first_number << " + " <<  second_number << " = " << sum;
 
     return 0;
 }*/
@@ -40,7 +40,7 @@ int main() {
 using namespace std;
 
 int main()
-{    
+{
     int divisor, dividend, quotient, remainder;
 
     cout << "Enter dividend: ";
@@ -56,11 +56,11 @@ int main()
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main()
-{    
+{
     int durable life, compensation rate, price obtained;
 
     cout << "Enter durable life: ";
@@ -76,6 +76,19 @@ int main()
     cout << "amortization in 1st year = " << amortization in 1st year << endl;
     cout << "amortization amount for each year starting from the 2nd year = " << amortization amount for each year starting from the 2nd year << endl;
     cout << "amortization in the final year = " << amortization in the final year << endl;
+
+    return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    cout << "Size of char: " << sizeof(char) << " byte" << endl;
+    cout << "Size of int: " << sizeof(int) << " bytes" << endl;
+    cout << "Size of float: " << sizeof(float) << " bytes" << endl;
+    cout << "Size of double: " << sizeof(double) << " bytes" << endl;
 
     return 0;
 }
