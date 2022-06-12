@@ -80,7 +80,7 @@ int main()
     return 0;
 }*/
 
-#include <iostream>
+/*#include <iostream>
 using namespace std;
 
 int main()
@@ -89,6 +89,26 @@ int main()
     cout << "Size of int: " << sizeof(int) << " bytes" << endl;
     cout << "Size of float: " << sizeof(float) << " bytes" << endl;
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
+
+    return 0;
+}*/
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a = 1, b = 0, temp;
+
+    cout << "Before swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
+
+    temp = a;
+    a = b;
+    b = temp;
+
+    cout << "\nAfter swapping." << endl;
+    cout << "a = " << a << ", b = " << b << endl;
 
     return 0;
 }
